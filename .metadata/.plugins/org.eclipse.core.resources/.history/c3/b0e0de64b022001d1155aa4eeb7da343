@@ -1,0 +1,17 @@
+
+public class Ex07_Operation {
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		//대입 연산자.
+		// +=, -=, *=, /=
+		int sum = 0;
+		sum+=1;//sum = sum + 1;
+		sum-=1;
+		System.out.println("sum : " + sum);
+		
+		//간단한 학점 계산기.
+		
+		//학점 : a + 
+		
+	}
+}

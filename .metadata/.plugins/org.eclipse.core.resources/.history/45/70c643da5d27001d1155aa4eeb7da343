@@ -1,0 +1,27 @@
+package kr.or.kosa;
+
+public class Book {
+	String name;
+	int dollor;
+	
+	public Book(){
+		this.name = "국사책";
+		this.dollor = 10000;
+	}
+	
+	public Book(String name, int dollor){
+		this.name = name;
+		this.dollor = dollor;
+	}
+	
+	public void print() {
+		bookName();
+		bookDollor();
+	}
+	public void bookName() {
+		System.out.println("책이름 : " + this.name);
+	}
+	public void bookDollor() {
+		System.out.println("가격 : " + this.dollor);
+	}
+}

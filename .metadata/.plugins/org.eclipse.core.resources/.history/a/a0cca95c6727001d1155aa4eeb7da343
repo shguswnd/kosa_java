@@ -1,0 +1,28 @@
+import java.util.Scanner;
+
+public class Ex17_do_while_Menu {
+
+	Scanner scan =new Scanner(System.in);S
+	
+	//기능 정의
+	
+	void inputRecord() {
+		System.out.println("성적 데이터 입력");
+	}
+	void deleteRecord() {
+		System.out.println("성적 데이터 삭제");
+	}
+	void sortRecord() {
+		System.out.println("성적 데이터 정렬");
+	}
+	int displayMenu() {
+		System.out.println("******************************");
+		System.out.println("******************************");
+	}
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

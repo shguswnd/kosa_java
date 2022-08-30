@@ -1,0 +1,15 @@
+
+//아파트 설계도
+class Apt{
+	int window;
+	
+}
+
+public class Ex03_Object_Variable {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

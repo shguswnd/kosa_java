@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move element &apos;Eggmayo.java&apos; to &apos;Ex03_OOP_Basic/src/kr.or.kosa&apos;&#x0D;&#x0A;- Original project: &apos;Ex03_OOP_Basic&apos;&#x0D;&#x0A;- Destination element: &apos;Ex03_OOP_Basic/src/kr.or.kosa&apos;&#x0D;&#x0A;- Original element: &apos;Eggmayo.java&apos;&#x0D;&#x0A;- Update references to refactored element" description="Move compilation unit" destination="/src&lt;kr.or.kosa" element1="/src&lt;{Eggmayo.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.move" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1661477758828" units="1" version="1.0"/>
+</session>

@@ -1,0 +1,13 @@
+
+public class Ex11_Static_Method {
+
+	public void method() {
+		System.out.println("나 일반함수야");
+	}
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

@@ -1,0 +1,16 @@
+/*
+ 배열은 객체다 (Array)
+ 1. new 를 통해서 생성
+ 2. heap 메모리 생성(관리자원).
+ 3. 고정배열(정적배열)
+ 
+ */
+
+public class Ex01_Array_Basic {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

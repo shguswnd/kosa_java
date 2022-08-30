@@ -1,0 +1,60 @@
+import java.lang.reflect.Array;
+import java.util.Arrays;
+
+/*
+ 배열은 객체다 (Array)
+ 1. new 를 통해서 생성
+ 2. heap 메모리 생성(관리자원).
+ 3. 고정배열(정적배열) : 배열을 한번 선언하면 (크기가 정해지면) 변경이 불가능. <=> collection (동적배열)
+ 4. 자료구조(알고리즘) 기초적인 학습.
+ 
+ 
+ 
+ */
+
+public class Ex01_Array_Basic {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		//같은 타입의 변수 여러개를 선언해서 데이터 처리하세요.
+		int s;
+		int s1;
+		int s2;
+		int s3;
+		
+		int a, a1, a2, a3;
+		//.......................
+		//배열
+		int[] score = new int[4];
+		
+		System.out.println(score[0]);
+		score[0] = 101;
+		score[1] = 20;
+		score[2] = 300;
+		score[3] = 500;
+		//score[4] = 111;
+		//Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: Index 4 out of bounds for length 4
+		//배열범위를 넘어섯다.
+		
+		for(int i = 0 ; i <4; i++) {
+			System.out.printf("[%d]=%d\t", i, score[i]);
+		}
+		System.out.println();
+		
+		for(int i = 0; i < score.length ; i++) {
+			System.out.printf("[%d]=%d\t", i, score[i]);
+		}
+		System.out.println();
+		
+		String resultArray = Arrays.toString(score);
+		System.out.println(resultArray);
+		
+		Arrays.sort(score);
+		resultArray = Arrays.toString(score);
+		System.out.println(resultArray);
+		
+		
+		
+	}	
+
+}

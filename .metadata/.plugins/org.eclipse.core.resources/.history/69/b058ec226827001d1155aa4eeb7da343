@@ -1,0 +1,29 @@
+import java.util.Scanner;
+
+public class Ex17_do_while_Menu {
+
+	Scanner scan =new Scanner(System.in);S
+	
+	//扁瓷 沥狼
+	
+	void inputRecord() {
+		System.out.println("己利 单捞磐 涝仿");
+	}
+	void deleteRecord() {
+		System.out.println("己利 单捞磐 昏力");
+	}
+	void sortRecord() {
+		System.out.println("己利 单捞磐 沥纺");
+	}
+	int displayMenu() {
+		System.out.println("******************************");
+		System.out.println("**********己利包府***********");
+		System.out.println("1.切积己利 涝仿");
+	}
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

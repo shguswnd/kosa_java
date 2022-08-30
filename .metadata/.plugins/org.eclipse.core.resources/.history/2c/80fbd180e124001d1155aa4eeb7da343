@@ -1,0 +1,52 @@
+/*
+  
+ 
+ instance variable >> class Car {private String color;}
+>> 생성되는 객체마다 다른 색상을 가질 수 있다.
+
+
+ local variable >> class Car { public void move() { int speed =0; } }
+ main 함수 >> local variable 로컬변수는 반드시 초기화 해줘야함. 실행시 문제 발생.
+ 
+ block variable >> class Car { public void move() { for(int i; i<10...}}
+ //제어문 끝나면 리셋
+
+static variable >> 공유자원 (객체간), 객체생성 이전에 memory 올라가는 자원 ( 영역 : class area, mem
+
+객체를 만드는 유일한 방법 : new 메모리에 .....
+
+static new 없이도 메모리에 올라감. 
+ 
+ 
+ 
+ */
+
+
+class Variable{
+	int iv;
+	/*
+	 1. member field , instance variable
+	 2. iv 언제 사용가능 할까(메모리에 언제 올라 갈까?)
+	 클래스 new 할때 메모리에 생성. >> heap 메모리에 객체가 생성됨. >> 그 객체안에 iv 생성.
+	 3. 
+	
+	
+	
+	*/
+	static int cv;
+	
+	
+	void method() {
+		int iv=0;
+	}
+	
+}
+
+public class Ex06_Variable_Scope {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

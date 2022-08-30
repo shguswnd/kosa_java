@@ -1,0 +1,14 @@
+import java.util.Scanner;
+
+class test{
+    public static void main(String[] args)
+    {
+        Scanner scan = new Scanner;
+        int a;
+        int b;
+        scan.nextInt(a);
+        scan.nextInt(b);
+        
+        System.out.println(a*b);
+    }
+}

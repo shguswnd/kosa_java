@@ -1,0 +1,34 @@
+/*
+ 생성자 함수(constructor)
+ 1. 함수(특수한 목적)
+ 2. 목적(member field 초기화) >> static{}, {초기화 블럭} 
+ 
+ 3. 일반함수와 다른점.
+ 3.1 함수의 이름이 고정(class 이름 동일)
+ 3.2 return type 없음(객체 생성과 동시에 호출) (return 을 받을 대상이 없음.)
+ 3.3 실행시점 >> new 객체 생성 >> heap 공간 생성 >> member field 자리 >> 자동으로 생성자 함수 호출
+ 3.4 return type(x) >> void >> public void(생략) 클래스 이름 >> public 클래스 이름 () {}
+ 
+  
+ 4. why : 생성되는 객체마다[강제적으로] member field 값을 초기화.
+ 
+ class Car {String color;}
+ >> 설계도를 만들었음, .... 자동차의 색상은 만들때 알아서 해
+ 
+ A) 무조건 파란색 차를 생성..... 처음부터 파랑색으로 설계
+ 
+ B) Class Car{String color = "blue";}
+ 
+ 
+ 
+ */
+
+
+public class Ex15_Constructor {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

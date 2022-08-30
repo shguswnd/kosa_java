@@ -1,0 +1,95 @@
+//라인주석
+/*
+ 블록주석
+ Ex02_Variable >> 클래스 >> 설계도 >> 데이터 타입
+ 
+ 클래스의 종류
+ 1. class Car {} >> 독자적으로 실행이 불가능. >> 다른 클래스 (설계도) 참조하는 클래스 >> main 함수(x) >> Lib 
+ 2. class Car { public static void main(String[] args){   }} >> 독자적으로 실행 가능한 클래스
+ 2.1 static void main(String[] args) >> main 이름을 가지는 함수 >> 프로그램 시작점, 진입점 > 실행(약속).
+
+ Tip)
+ C# 언어 >> public static void Main(String[] args)
+ 
+ 변수 : variable
+ 데이터(자료)를 담을수 있는 메모리.
+ 공간(크기) : 데이터 타입(자료형) >> 메모리의 공간의 한정되어 있다. >> 최소한의 공간으로 최대한 데이터
+ 데이터 타입 변수명 >> int i = 100 
+ 
+ public class 클래스 이름{
+ 	public static void main(String[] args){
+ 		안에있는 변수를 지역변수.
+ 		int num = 100; //초기화 사용
+ 	}
+ }
+
+
+변수가 선언되는 위치 (scope : 유효범위)
+1. instance variable : 객체변수 >> class Car { int number = 2000; }
+2. local variable : 지역변수(함수안에) >> class Car { public void run(){ int speed : 0; } }
+3. 함수안에 제어블럭(if, for) 안에 있는 변수(블록) class Car { public void run(){ for(int i = 0;......... ) }}
+4. static variable : 공유자원(객체간) >> class Car { public static num = 100; }
+ 
+
+*/
+
+//class 설계도이다 == class Type이다 (여러개의 의미있는 작은 타입을 가지는 큰 타입) : 사용자 정의 타입.
+
+
+// 자바는 하나의 물리적인 파일안에 여러개의 클래스를 사용가능. (권유는 안함 연습용으로.)
+// 실제 개발할때는 하나의 파일에 하나의 클래스 사용 일반적.
+
+class Car {
+	int iv = 100;
+	int window; //instance variable은 초기화를 하지 않아도 된다.
+				//내부적으로 기본값(defualt) : 0
+
+	/*
+	  초기화 : 변수가 처음 값을 갖는것(할당을 통해서) 질문 :
+	  질문 : why int window 이런 객체변수는 초기화를 하지 않아도 문제가 생기지 않음.
+	  자동차를 만들때 int window = 4개 창문 4개......
+	  
+	  
+	  Car 라는 설계도를 가지고 차를 생산 가능.
+	  
+	  Car sscar = new Car();  자동차를 만드는 행위. >> 창문이 0개
+	  sscar.window = 10;
+
+	 */
+
+}
+
+public class Ex02_Variable {
+
+	public static void main(String[] args) {
+		// 시작점
+		//main 함수안에 코드가 있어야 실행된 결과를 볼 수 있다.
+		int lv = 100;
+		System.out.println("lv 지역변수 : " + lv);
+		
+		int number = 0;
+		number = 100;
+		number = 200;
+		System.out.println("number : " + number);
+		
+		int a;
+		int b;
+		
+//		System.out.println(a);
+		//main 함수 안에 있는 변수는 지역변수이며, 초기화를 안하면 사용 불가능.
+		b = 200;
+		System.out.println("b 변수 초기화 : " + b);
+		
+		int c, d; //선호 x >> 개발자 >> Array()로 씀
+		
+		//key point
+		//local variable (함수안에 있는 변수) 
+		//반드시 초기화 필요.
+		int k = 100; //지역변수는 선언과 동시에 초기화를 하고 사용하는 습관.
+		
+		Car car = new Car();
+		
+
+		
+	}
+}

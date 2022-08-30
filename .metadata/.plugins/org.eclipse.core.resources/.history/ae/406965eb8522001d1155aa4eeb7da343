@@ -1,0 +1,14 @@
+
+public class Ex06_Operation {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int result = 100/100;
+		System.out.println(result);
+		
+		result = 13/2;
+		
+		
+	}
+
+}

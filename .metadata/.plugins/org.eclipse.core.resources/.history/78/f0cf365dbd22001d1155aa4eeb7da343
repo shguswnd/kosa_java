@@ -1,0 +1,12 @@
+
+
+public class Ex08_printf_format {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		//system.out.println();
+		System.out.println(); //출력하고 줄바꿈 (엔터)
+		
+	}
+
+}

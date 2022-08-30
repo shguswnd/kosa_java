@@ -1,0 +1,18 @@
+
+public class test2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		/*
+		 * char alp = 'A';
+		 * 
+		 * while(true) { System.out.println(alp); alp++; if(alp > 'Z') break; }
+		 */
+		
+		int alp = 'A'; //65
+		int alp2 = 'Z';
+		System.out.println(alp2);
+		
+	}
+
+}

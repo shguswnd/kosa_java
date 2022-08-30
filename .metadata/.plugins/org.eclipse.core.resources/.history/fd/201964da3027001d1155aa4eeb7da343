@@ -1,0 +1,12 @@
+class Data{
+	int i;	
+}
+
+public class Ex12_Method_Call {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

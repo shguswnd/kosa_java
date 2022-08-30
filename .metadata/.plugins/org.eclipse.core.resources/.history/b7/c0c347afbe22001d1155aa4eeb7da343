@@ -1,0 +1,32 @@
+
+
+public class Ex08_printf_format {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		//system.out.println();
+		System.out.println(); //출력하고 줄바꿈 (엔터)
+		System.out.print("A");
+		System.out.print("B");
+		System.out.print("C");
+		System.out.println();
+		System.out.print("D");
+		System.out.println();
+		int num = 100;
+		System.out.println(num);
+		
+		System.out.println("num 값은 " + num + " 입니다.");
+		
+		// 형식 format
+		System.out.printf("num 값은 %d 입니다.", num);
+		//format 형식문자
+		/*
+		 %d (10진수 형식의 정수)
+		 %f (실수)
+		 %s (String)
+		 %c (char)
+		 \t tab, \n 줄바꿈
+		 */
+	}
+
+}

@@ -1,0 +1,15 @@
+/*
+ 생성자 함수(constructor)
+ 1. 함수(특수한 목적)
+ 2. 목적(member field 초기화) >> static{}, {초기화 블럭} 
+ 3. 
+ 
+ */
+public class Ex15_Constructor {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

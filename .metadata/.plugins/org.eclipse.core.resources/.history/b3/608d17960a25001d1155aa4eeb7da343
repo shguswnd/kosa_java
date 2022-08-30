@@ -1,0 +1,20 @@
+//static 변수는 객체마다 같은 값을 가지게 할거야를 목적으로 설계
+//instance 변수는 객체마다 다른 값을 가지게 할거야를 목적으로 설계
+
+
+//두변수에 대해서 초기화....
+
+
+class InitTest{
+	
+}
+
+
+public class Ex09_Static_init {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

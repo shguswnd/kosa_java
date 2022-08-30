@@ -1,0 +1,17 @@
+//라인주석
+/*
+ 블록주석
+ Ex02_Variable >> 클래스 >> 설계도 >> 데이터 타입
+ 
+ 클래스의 종류
+ 1. class Car {} >> 독자적으로 실행이 불가능. >> 다른 클래스 (설계도) 참조하는 클래스.
+ 2. 
+*/
+
+public class Ex02_Variable {
+
+	public static void main(String[] args) {
+		// 시작점
+		
+	}
+}

@@ -1,0 +1,15 @@
+
+/*
+ this (이것) 
+ 1. 객체 자신을 가르키는 this (앞으로 생성될 객체의 주소를 담을 곳)
+ */
+
+
+public class Ex19_this {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

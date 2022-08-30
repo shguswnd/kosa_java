@@ -1,0 +1,16 @@
+
+//아파트 설계도
+class Apt{ //설계도 == 데이터 타입(작은 타입을 모아 넣은 큰 타입)
+	int window;
+}
+
+//데이터 타입 변수명 
+
+public class Ex03_Object_Variable {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		
+	}
+}

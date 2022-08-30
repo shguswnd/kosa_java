@@ -1,0 +1,37 @@
+
+//酒颇飘 汲拌档
+class Apt{ //汲拌档 == 单捞磐 鸥涝(累篮 鸥涝阑 葛酒 持篮 奴 鸥涝)
+	int window;
+}
+
+//单捞磐 鸥涝 函荐疙 ex) int number; >> number 扼绰 函荐绰 鸥涝俊 嘎绰 蔼阑 啊柳促. 
+//Apt apt
+
+
+public class Ex03_Object_Variable {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int number = 100;
+		Apt apt = new Apt();
+		Apt apt2 = new Apt();
+		//急攫 Apt 鸥涝 apt 函荐
+		//apt 函荐绰 Apt 鸥涝狼 蔼阑 啊廉具 窍绰 林家蔼.
+		//角力肺 酒颇飘甫 皋葛府俊 棵妨具 酒颇飘啊 积己登绊 弊 林家啊 父靛矾 咙.
+		//蜡老茄 规过 : new (楷魂磊)
+		
+		//heap捞扼绰 皋葛府俊 酒颇飘啊 父甸绢瘤绊 林家啊 积己登绊
+		//积己等 林家蔼阑 apt 函荐啊 啊柳促.
+		
+		System.out.println("apt : " + apt);
+		System.out.println("apt2 : " + apt2);
+		//apt 甫 免仿沁阑锭 静饭扁 蔼捞 积扁绰单 捞扒 炼累等 蔼捞促.(林家啊 局檬俊 绝栏聪瘪?栏肺 积阿凳)
+		//Apt + @ + 626b2d4a >> 汲拌档狼捞抚 + @ + 林家蔼
+		//. 篮 林家甫 茫酒啊绰 楷魂磊
+		// 赛康开篮 按眉甸捞 乐绊, 胶琶俊绰 函荐啊 乐促.
+		// 弊矾搁 赛俊 按眉啊 父甸绢柳吧 apt 函荐啊 胶琶皋葛府甫 烹秦 林家蔼阑 啊瘤绊 乐绊,
+		// 林家甫 胶琶俊辑 茫酒 赛康开栏肺 啊 角力 按眉甸阑 荤侩且 巴.
+		// . 楷魂磊疕 林家甫 茫酒啊绰 楷魂磊肺 林家 茫绊 唱赣瘤 皋家靛, 函荐甸 荤侩啊瓷.
+
+	}
+}

@@ -1,0 +1,43 @@
+//라인주석
+/*
+ 블록주석
+ Ex02_Variable >> 클래스 >> 설계도 >> 데이터 타입
+ 
+ 클래스의 종류
+ 1. class Car {} >> 독자적으로 실행이 불가능. >> 다른 클래스 (설계도) 참조하는 클래스 >> main 함수(x) >> Lib 
+ 2. class Car { public static void main(String[] args){   }} >> 독자적으로 실행 가능한 클래스
+ 2.1 static void main(String[] args) >> main 이름을 가지는 함수 >> 프로그램 시작점, 진입점 > 실행(약속).
+
+ Tip)
+ C# 언어 >> public static void Main(String[] args)
+ 
+ 변수 : variable
+ 데이터(자료)를 담을수 있는 메모리.
+ 공간(크기) : 데이터 타입(자료형) >> 메모리의 공간의 한정되어 있다. >> 최소한의 공간으로 최대한 데이터
+ 데이터 타입 변수명 >> int i = 100 
+
+*/
+
+public class Ex02_Variable {
+
+	public static void main(String[] args) {
+		// 시작점
+		//main 함수안에 코드가 있어야 실행된 결과를 볼 수 있다.
+		int lv = 100;
+		System.out.println("lv 지역변수 : " + lv);
+		
+		int number = 0;
+		number = 100;
+		number = 200;
+		System.out.println("number : " + number);
+		
+		int a;
+		int b;
+		
+//		System.out.println(a);
+		//main 함수 안에 있는 변수는 지역변수이며, 초기화를 안하면 사용 불가능.
+		b = 200;
+		System.out.println("b 변수 초기화 : " + b);
+		
+	}
+}

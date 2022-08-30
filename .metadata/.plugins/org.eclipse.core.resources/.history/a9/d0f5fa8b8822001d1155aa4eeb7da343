@@ -1,0 +1,43 @@
+
+public class Ex06_Operation {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int result = 100/100;
+	//	System.out.println(result);
+		
+		result = 13/2; //몫
+		
+		//System.out.println(result);
+		
+		//나머지를 구하는 연산자가 따로 있음. %
+		
+		result = 13%2;
+		
+//		System.out.println(result);
+		
+		//증가, 감소 (증가감 연산자 : ++ , --)
+		
+		int i = 10;
+		++i; //전치증가
+		System.out.println(i);
+		i++; // 후치증가
+		//혼자서는 후치 전치 의미 없음. 어차피 증가
+		System.out.println(i);
+		
+		// Today Point (증가감 연산자 다른 연산자와 결합되면 전치, 후지가 살아남)
+		int i2 = 5;
+		int j2 = 4;
+		int result2 = i2 + ++j2;
+		System.out.println(result2);
+		
+		byte b = 100;
+		byte c = 1;
+		byte d = b + c;
+		//Type mismatch: cannot convert from int to byte 
+		//자바는 연산을 할 경우 정수방을 사용함 그러므로 byte끼리 연산작업을 해도 정수방으로 작업을 함. 4바이트로 작업한다.
+		// 해결
+		// 1. casting
+	}
+
+}

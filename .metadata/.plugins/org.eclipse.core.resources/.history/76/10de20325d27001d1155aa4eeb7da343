@@ -1,0 +1,11 @@
+package kr.or.kosa;
+
+public class Book {
+	String name;
+	int dollor;
+	
+	Book(){
+		this.name = "±πªÁ√•";
+		this.dollor = 10000;
+	}
+}

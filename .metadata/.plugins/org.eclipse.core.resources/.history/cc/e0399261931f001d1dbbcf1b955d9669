@@ -1,0 +1,14 @@
+package kr.or.kosa;
+
+//사원을 정의
+public class Emp {
+	public int number;
+	private int empno;
+	
+	public int getEmpno() {
+		return empno;
+	}
+	public void setEmpno(int empno) {
+		this.empno = empno;
+	}
+}

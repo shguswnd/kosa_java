@@ -1,0 +1,23 @@
+
+public class Ex06_Operation {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int result = 100/100;
+		System.out.println(result);
+		
+		result = 13/2; //몫
+		
+		System.out.println(result);
+		
+		//나머지를 구하는 연산자가 따로 있음. %
+		
+		result = 13%2;
+		
+		System.out.println(result);
+		
+		result = 2^2;
+		
+	}
+
+}

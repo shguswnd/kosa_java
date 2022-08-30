@@ -1,0 +1,13 @@
+
+public class Ex02_Array_Quiz {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		//국문과 학생들의 기말고자 시험점수입니다.
+		
+		int[] score = new int[] {79,88,97,54,56,95};
+		int max = score[0];
+		
+	}
+
+}

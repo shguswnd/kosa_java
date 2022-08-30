@@ -1,0 +1,14 @@
+package kr.or.kosa;
+
+public class Car_Quiz {
+	int door;
+	String carColor;
+	
+	public Car_Quiz() {
+		this.door = 4;
+		this.carColor = "red";
+	}
+	public Car_Quiz(int door) {
+		this.door = door;
+	}
+}

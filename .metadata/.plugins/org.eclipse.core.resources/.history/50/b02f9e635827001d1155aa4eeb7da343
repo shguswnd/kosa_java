@@ -1,0 +1,6 @@
+package kr.or.kosa;
+
+public class Car_Quiz {
+	int door;
+	String carColor;
+}

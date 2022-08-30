@@ -1,0 +1,9 @@
+package kr.or.kosa.common;
+
+public class Car {
+		int i;	//컴파일러가 자동으로 default 을 붙힘. (같은 패키지안에서만 사용가능) 앞에 클래스가 public 이다? 
+		//default package 에 Ex01_Main에서 i는 사용불가(default 같은 폴더 한정)
+		public int window; // 같은 폴더 다른 폴더와 상관없이 다 사용가능하다.
+		private int door; // 
+
+}

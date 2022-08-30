@@ -1,0 +1,12 @@
+import java.util.Scanner;
+public class Ex10_Statement {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String a = "a";
+		Scanner scan = new Scanner(System.in);
+		int i = a.length();
+		System.out.println(i);
+	}
+
+}

@@ -1,0 +1,13 @@
+/*
+	1.자바가 제공하는 기본 타입()
+
+ */
+
+public class Ex04_DataType {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

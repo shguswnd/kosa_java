@@ -15,12 +15,33 @@ public class Ex02_Array_Quiz {
 		
 		for(int i = 0 ; i < score.length ; i++)
 		{
-			if(max < score[i])
-				max = score[i];
-			if(min > score[i])
-				min = score[i];
+//			if(max < score[i])
+//				max = score[i];
+//			if(min > score[i])
+//				min = score[i];
+			max = (score[i] > max) ? score[i] : max;
+			min = (score[i] < min) ? score[i] : min;
 		}
 		System.out.println("min : " + min + " max : " + max);
+		
+		int number[] = new int[10];
+		for(int i = 0 ; i < 10 ; i++)
+			number[i] = i+1;
+		for(int i = 0 ; i < 10 ; i++)
+			System.out.println(number[i]); 
+	
+		//어느 학생의 기말고사 시험점수(5과목)
+		int[] jumsu = {100,55,90,60,78};
+		int sum = 0;
+		float avg = 0f;
+		
+		
+		for(int i = 0 ; i < jumsu.length ; i++)
+			sum += jumsu[i];
+		avg = sum/(float)jumsu.length;
+		System.out.printf("총 과목수 : %d, 과목 합 : %d 과목평균 : %.2f", jumsu.length, sum, avg);
+	
+	
 	}
 
 }

@@ -1,7 +1,0 @@
-package kr.or.kosa;
-
-//사원을 정의
-public class Emp {
-	private int empno = 1;
-	
-}

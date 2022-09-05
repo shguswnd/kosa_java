@@ -99,7 +99,7 @@ class Buyer2{
 	//물건을 계산
 	//물건의 가격, 이름
 	//총 구매가격 표시
-	void summery(Product2[] p) {
+	void summery() {
 		int totalprice=0;
 		int totalbonuspoint=0;
 		String productlist=""; //누적

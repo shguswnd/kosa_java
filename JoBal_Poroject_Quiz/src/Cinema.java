@@ -45,7 +45,7 @@ public void init() {
 		showSeat();
 	}
 	
-	void cancelReservation () {
+	void cancelReservation() {
 		System.out.println("예매취소");
 		delete();
 	}

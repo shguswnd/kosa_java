@@ -43,19 +43,19 @@ class Vcard2{ //설계자 입장에서 ... 만든 카드마다 다른 상수값을 가지게 하겠다.
 	
 	
 }
+
 public class Ex07_final {
 
 	public static void main(String[] args) {
-	//	Vcard vc = new Vcard();
-		//vc.KIND = "aaa";
+		// Vcard vc = new Vcard();
+		// vc.KIND = "aaa";
 		Vcard2 v1 = new Vcard2("spade", 1);
 		System.out.println(v1.toString());
 		Vcard2 v2 = new Vcard2("spade", 2);
 		System.out.println(v2.toString());
 		Vcard2 v3 = new Vcard2("spade", 3);
 		System.out.println(v3.toString());
-		
-		//v3.KIND = "aaa";
+		// v3.KIND = "aaa";
 	}
 
 }

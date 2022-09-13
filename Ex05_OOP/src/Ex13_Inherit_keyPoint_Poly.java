@@ -69,7 +69,7 @@ class Buyer2{
 		this.bonusPoint = bonuspoint;
 	}
 	
-	void buy(Product2 p) { //함수의 parameter 제품 객체의 주소를 받아서...
+	void Buy(Product2 p) { //함수의 parameter 제품 객체의 주소를 받아서...
 		if(this.money < p.price)
 		{
 			System.out.println("잔액이 부족합니다.");
@@ -132,9 +132,21 @@ public class Ex13_Inherit_keyPoint_Poly {
 	public static void main(String[] args) {
 		final int size = 10;
 		
-		Buyer2 buy = new Buyer2();
-		KtTv2 kttv = new KtTv2();
+		KtTv2 tv2 = new KtTv2();
+		Audio2 audio2 = new Audio2();
+		NoteBook2 notebook2 = new NoteBook2();
 		
+		
+		Buyer2 buyer2 = new Buyer2(5000,0);
+		
+		buyer2.Buy(notebook2);
+		buyer2.Buy(notebook2);
+		buyer2.Buy(tv2);
+		buyer2.Buy(tv2);
+		buyer2.Buy(tv2);
+		buyer2.Buy(audio2);
+		buyer2.Buy(audio2);
+		buyer2.summery();
 		
 		
 

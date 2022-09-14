@@ -173,7 +173,7 @@ public class ProjectBack{
       //계좌에서 잔액의 변화가 있을 때 마다 입출금 명세에 기록된다.
         //입출금 명세는 거래일자, 거래시간, 입금/출금, 금액, 잔액으로 구성된다.
         System.out.println("\n***계좌번호가 1111인 계좌의 거래내역 확인하기***");
-        ArrayList<Transaction> kimTransaction = kim.getTransactions();
+//        ArrayList<Transaction> kimTransaction = kim.getTransactions();
  
         
 	}

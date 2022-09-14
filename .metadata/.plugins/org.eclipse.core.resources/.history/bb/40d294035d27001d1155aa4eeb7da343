@@ -1,8 +1,0 @@
-package kr.or.kosa;
-
-public class Book {
-	String name;
-	int dollor;
-	
-	
-}

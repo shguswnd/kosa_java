@@ -1,27 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
-		<item key="selection" value="airPlaneTotalCount"/>
+		<item key="selection" value="next"/>
 		<item key="wrap" value="true"/>
 		<item key="casesensitive" value="false"/>
 		<item key="wholeword" value="false"/>
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
 		<list key="findhistory">
-			<item value="airPlaneTotalCount"/>
-			<item value="&#x09;&#x09;int i=0;"/>
-			<item value="우리는 백화점 경품 시스템을 만들려고 한다"/>
-			<item value="&#x09;&#x09;if(10 == 10.0f) {"/>
-			<item value="flo"/>
-			<item value="&#x09;&#x09;System.out.println(a);"/>
-			<item value="블록주석"/>
+			<item value="nextLine"/>
+			<item value="showSeat"/>
+			<item value="next"/>
+			<item value="cancelReservation"/>
+			<item value="breeth"/>
+			<item value="bree"/>
+			<item value="다형성"/>
+			<item value="다형"/>
+			<item value="다횽"/>
+			<item value="MAX_HP"/>
+			<item value="&#x09;public static void main(String[] args) {"/>
+			<item value="showSeat("/>
+			<item value="booking("/>
+			<item value="Cinema"/>
+			<item value="del"/>
 		</list>
 		<list key="replacehistory">
+			<item value="next"/>
+			<item value="breed"/>
 		</list>
 	</section>
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
-		<item key="DIALOG_X_ORIGIN" value="1082"/>
-		<item key="DIALOG_Y_ORIGIN" value="440"/>
+		<item key="DIALOG_X_ORIGIN" value="2013"/>
+		<item key="DIALOG_Y_ORIGIN" value="158"/>
 		<item key="DIALOG_WIDTH" value="418"/>
 		<item key="DIALOG_HEIGHT" value="523"/>
 		<item key="DIALOG_FONT_NAME" value="1|맑은 고딕|9.0|0|WINDOWS|1|-18|0|0|0|400|0|0|0|1|0|0|0|0|맑은 고딕"/>

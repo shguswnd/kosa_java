@@ -1,3 +1,7 @@
+import java.util.ArrayList;
+import java.util.Iterator;
+import java.util.List;
+
 /*
  자바 8가지 기본 타입(값타입) : JAVA API 제공
  
@@ -14,8 +18,43 @@
 public class Ex08_Wrapper_Class {
 
 	public static void main(String[] args) {
+//		Integer n = new Integer(500);
+//		System.out.println("n :" + n);
+//		System.out.println(Integer.MAX_VALUE);
+//		System.out.println(Integer.MIN_VALUE);
+//		
+		//parameter 활용
+		//제너릭(generic) : 객체를 만들때 타입을 강제하는 방식으로 >> wrapper class
 		
-
+		List<Integer> li = new ArrayList<Integer>();
+		
+		li.add(100);
+		//li.add("a"); 정수타입 x
+		
+		for(int value : li) {
+			System.out.println(value);
+		}
+		
+		Iterator<Integer>t = li.iterator();
+		
+		while(t.hasNext()) {
+			System.out.println(t.next());
+		}
+		
+		Integer i2 = new Integer(100);
+		Integer i3 = new Integer(100);
+		
+		System.out.println(i2 == i3); // false // 주소값을 비교
+		System.out.println(i2.equals(i3)); // true // 주소를 찾아가서 그 값을 비교
+		
+		//String >> 문자열값 비교 >> equals (재정의 되어있음)
+		
+		int i4 = 100;
+		int i5 = 100;
+		//위 두개는 값 타입이라 i4==i5 비교가 가능하다.
 	}
 
+	static void iMethod(Integer i) {
+		
+	}
 }

@@ -1,0 +1,1 @@
+importjava.io.FileReader;importjava.io.FileWriter;/*문자기반의데이터처리(char[])String클래스:Stringstr="ABC":내부적으로char[]>>[A][B][C]한글1자,영문1자>>2Byte>>Reader,Writer(추상클래스)대상파일FileReaderFileWriter*/publicclassEx05_Reader_Writer{publicstaticvoidmain(String[]args){FileReaderfr=null;FileWriterfw=null;try{fr=newFileReader("Ex01_Stream.java");fw=newFileWriter("copy_Ex01.txt");}catch(Exceptione){}}}

@@ -109,6 +109,25 @@ class Lotto{
 			} 
 		} return true;
 	}
+	static int[] bubbleSort(int[] arr) {
+		int length = arr.length;
+		int temp = 0;
+//		System.out.print("초기값");
+//		System.out.println(Arrays.toString(arr));
+		for(int i = 0; i<length; i++) {
+			for(int j = 0; j<length-1-i;j++) {
+				if(arr[j] > arr[j+1]) {
+					temp = arr[j];
+					arr[j] = arr[j+1];
+					arr[j+1] = temp;
+				}
+//				System.out.println("정렬중..." + Arrays.toString(arr) + " ["+j+"]");
+			}
+//			System.out.println(Arrays.toString(arr));
+		}
+		
+		return arr;
+	}
 	 
 	// 중복제거
 	int [] distinct() {
@@ -123,11 +142,12 @@ class Lotto{
 				
 				if (verify(lottery, num)) { //if this condition is true, conducting code proceeds.
 					lottery[i] = num;
-					break;}
+					break;
+					}
 					// if upper condition is false, out of this conducting code is proceeded.
 				}
 			} 
-			
+		bubbleSort(lottery);	
 		return 	lottery;
 	}					
 	
@@ -160,6 +180,7 @@ class Lotto{
 			if(event2Verify(a, b, arr))
 				break;
 		}
+		bubbleSort(arr);
 		return arr;
 	}
 
@@ -179,10 +200,18 @@ class Lotto{
 				cnt = randomnum();	//짝수면 초깃값 재설정 후 while 돌리기
 				}
 		}
+		bubbleSort(lotto);
 		return lotto;
 	}
 	
-	 
+	
+	//[2020년08월11일 14:23]
+	void Read() {
+		
+	}
+	void Write() {
+		
+	}
 	
 	
 }

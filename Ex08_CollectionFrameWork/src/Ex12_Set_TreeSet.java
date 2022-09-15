@@ -17,16 +17,16 @@ public class Ex12_Set_TreeSet {
 		//1. 이진트리구조 (나무 거꾸로 들고 보세요) : root > leaf
 		//2. 데이터 저장시 정렬기능 제공
 	
-		HashSet<String> hs = new HashSet<String>();
-		hs.add("A");
-		hs.add("B");
-		hs.add("A");
-		hs.add("F");
-		hs.add("K");
-		hs.add("G");
-		hs.add("D");
-		hs.add("P");
-		System.out.println(hs.toString());
+//		HashSet<String> hs = new HashSet<String>();
+//		hs.add("A");
+//		hs.add("B");
+//		hs.add("A");
+//		hs.add("F");
+//		hs.add("K");
+//		hs.add("G");
+//		hs.add("D");
+//		hs.add("P");
+//		System.out.println(hs.toString());
 		
 		Set<Integer> lotto = new TreeSet<Integer>();
 		for(int i = 0 ; lotto.size() < 6 ; i++) {

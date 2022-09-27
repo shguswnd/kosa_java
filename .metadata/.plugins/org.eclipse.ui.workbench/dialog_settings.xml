@@ -7,13 +7,42 @@
 	</section>
 	<section name="ImportExportAction">
 		<item key="ImportExportPage.STORE_SELECTED_IMPORT_WIZARD_ID" value="org.eclipse.ui.wizards.import.ExternalProject"/>
+		<item key="ImportExportPage.STORE_SELECTED_EXPORT_WIZARD_ID" value="org.eclipse.ui.wizards.export.ZipFile"/>
 		<list key="ImportExportPage.STORE_EXPANDED_IMPORT_CATEGORIES">
+			<item value="org.eclipse.ui.Basic"/>
+		</list>
+		<list key="ImportExportPage.STORE_EXPANDED_EXPORT_CATEGORIES">
 			<item value="org.eclipse.ui.Basic"/>
 		</list>
 	</section>
 	<section name="NewWizardAction">
 		<item key="NewWizardSelectionPage.STORE_SELECTED_ID" value="org.eclipse.jdt.ui.wizards.JavaProjectWizard"/>
 		<list key="NewWizardSelectionPage.STORE_EXPANDED_CATEGORIES_ID">
+		</list>
+	</section>
+	<section name="ZipFileExportWizard">
+		<item key="WizardZipFileResourceExportPage1.STORE_CREATE_STRUCTURE_ID" value="true"/>
+		<item key="WizardZipFileResourceExportPage1.STORE_COMPRESS_CONTENTS_ID" value="true"/>
+		<list key="WizardZipFileResourceExportPage1.STORE_DESTINATION_NAMES_ID">
+			<item value="C:\Users\KOSA\Desktop\2조버전관리\0922\TestProject_2_최종.zip"/>
+			<item value="C:\Users\KOSA\Desktop\2조버전관리\0922\TestProject_2_0923_14.zip"/>
+			<item value="C:\Users\KOSA\Desktop\2조버전관리\0922\TestProject_2_0923_13.zip"/>
+			<item value="C:\Users\KOSA\Desktop\2조버전관리\0922\TestProject_2_0923_12.zip"/>
+			<item value="C:\Users\KOSA\Desktop\2조버전관리\0922\TestProject_2_0923_11.zip"/>
+			<item value="C:\Users\KOSA\Desktop\2조버전관리\0922\TestProject_2_0922_1900.zip"/>
+			<item value="C:\Users\KOSA\Desktop\2조버전관리\0922\TestProject_2_0922_1700.zip"/>
+			<item value="C:\Users\KOSA\Desktop\2조버전관리\0922\TestProject_2_0922_1500.zip"/>
+			<item value="C:\Users\KOSA\Desktop\2조버전관리\0922\TestProject_2_0922_1400.zip"/>
+			<item value="C:\Users\KOSA\Desktop\2조버전관리\0922\TestProject_2_0922_1310.zip"/>
+			<item value="C:\Users\KOSA\Desktop\2조버전관리\0921\TestProject_2_0921_1830.zip"/>
+			<item value="C:\Users\KOSA\Desktop\Team_2_0920_1900.zip"/>
+			<item value="C:\Users\KOSA\Desktop\Team_2_0920_1800.zip"/>
+			<item value="C:\Users\KOSA\Desktop\Team_2_0920_1132.zip"/>
+			<item value="C:\Users\KOSA\Desktop\Team_2_0920_1119.zip"/>
+			<item value="C:\Users\KOSA\Desktop\Team_2(리턴메세지적용).zip"/>
+			<item value="C:\Users\KOSA\Desktop\Team_2_(범종/현정이리턴메세지적용).zip"/>
+			<item value="C:\Users\KOSA\Desktop\Team_2_vol3.zip"/>
+			<item value="C:\Users\KOSA\Desktop\Team_2.zip"/>
 		</list>
 	</section>
 </section>

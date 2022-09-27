@@ -12,5 +12,6 @@ public class regExp {
 //07µµ8284
 	        boolean regex = Pattern.matches(domain, user);
 	        System.out.println(regex);
+	       
 	}
 }

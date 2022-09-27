@@ -1,37 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
-		<item key="selection" value="next"/>
+		<item key="selection" value="AccountData"/>
 		<item key="wrap" value="true"/>
 		<item key="casesensitive" value="false"/>
 		<item key="wholeword" value="false"/>
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
 		<list key="findhistory">
-			<item value="nextLine"/>
-			<item value="showSeat"/>
-			<item value="next"/>
-			<item value="cancelReservation"/>
-			<item value="breeth"/>
-			<item value="bree"/>
-			<item value="다형성"/>
-			<item value="다형"/>
-			<item value="다횽"/>
-			<item value="MAX_HP"/>
-			<item value="&#x09;public static void main(String[] args) {"/>
-			<item value="showSeat("/>
-			<item value="booking("/>
-			<item value="Cinema"/>
-			<item value="del"/>
+			<item value="AccountData"/>
+			<item value="save"/>
+			<item value="경고"/>
+			<item value="toS"/>
+			<item value="to"/>
+			<item value="-1"/>
+			<item value="안녕하세요"/>
+			<item value="try"/>
+			<item value="syso"/>
+			<item value="&quot;021&quot;) "/>
+			<item value="payment"/>
+			<item value="adminsys"/>
+			<item value="예약부터 해주세요."/>
+			<item value="user.load()"/>
+			<item value="userStatus.setCh"/>
 		</list>
 		<list key="replacehistory">
-			<item value="next"/>
 			<item value="breed"/>
+			<item value="next"/>
 		</list>
 	</section>
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
-		<item key="DIALOG_X_ORIGIN" value="2013"/>
-		<item key="DIALOG_Y_ORIGIN" value="158"/>
+		<item key="DIALOG_X_ORIGIN" value="1914"/>
+		<item key="DIALOG_Y_ORIGIN" value="105"/>
 		<item key="DIALOG_WIDTH" value="418"/>
 		<item key="DIALOG_HEIGHT" value="523"/>
 		<item key="DIALOG_FONT_NAME" value="1|맑은 고딕|9.0|0|WINDOWS|1|-18|0|0|0|400|0|0|0|1|0|0|0|0|맑은 고딕"/>

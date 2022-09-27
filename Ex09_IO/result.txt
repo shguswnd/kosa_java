@@ -1,0 +1,2 @@
+word = C:\KOSA_IT\Temp\a.txt
+word = C:\KOSA_IT\Temp\new.txt
